@@ -1,0 +1,43 @@
+ 133  #Start now
+  134  ls -1l | grep d*
+  135  ls -1l | grep 'd*'
+  136  ls -1l | grep d* -1
+  137  ls -1l | grep -E "^-"
+  138  ls -1l | grep -E "^-" | wc -l
+  139  ls -1l | grep -E "^d" | wc -l
+  140  history
+  141  ls
+  142  less cuffdiff.txt 
+  143  head cuffdiff.txt 
+  144  tail cuffdiff.txt 
+  145  tail -n 40 cuffdiff.txt 
+  146  less cuffdiff.txt 
+  147  cut -f10 cuffdiff.txt 
+  148  cut -f10 cuffdiff.txt | head 
+  149  cut -f10 cuffdiff.txt | sort
+  150  cut -f10 cuffdiff.txt | sort -n
+  151  cut -f10 cuffdiff.txt | sort -n | head
+  152  cut -f10 cuffdiff.txt | sort -nr
+  153  cut -f10 cuffdiff.txt | sort -nr >> sorted.cuffdiff.out
+  154  cut -f10 cuffdiff.txt | sort -gr >> sorted.cuffdiff.out
+  155  cut -f10 cuffdiff.txt | sort -gr | head
+  156  cut -f10 cuffdiff.txt | sort -gr | head 100
+  157  cut -f10 cuffdiff.txt | sort -gr | head -100
+  158  cut -f10 cuffdiff.txt | sort -gr | head -100 >> top100.sorted.cuffdiff.out
+  159  sort -g -h10 -r cuffdiff.txt 
+  160  sort -g -l10 -r cuffdiff.txt 
+  161  sort -g -k10 -r cuffdiff.txt 
+  162  sort -g -k10 -r cuffdiff.txt >> sorted.cuffdiff.out
+  163  sort -g -k10 -r cuffdiff.txt | head
+  164  sort -g -k10 -r cuffdiff.txt | head -100
+  165  cut -f10,1 cuffdiff.txt | sort -gr | head -100 >> top100.sorted.cuffdiff.out
+  166  cut -f10,1 cuffdiff.txt | sort -gr | head -100 
+  167  cut -f10 cuffdiff.txt | sort -gr | head -100 >> top100.sorted.cuffdiff.out
+  168  sort -g -k10 -r cuffdiff.txt | head -1
+  169  LC_NUMERIC=C sort -g -k10 -r cuffdiff.txt | head -100
+  170  LC_NUMERIC=C sort -g -k10 -r cuffdiff.txt | head -100 >> sorted.cuffdiff.out
+  171  LC_NUMERIC=C sort -g -k10 -r cuffdiff.txt >> sorted.cuffdiff.out
+  172  LC_NUMERIC=C sort -g -k10 -r cuffdiff.txt | head -100 >> top100.sorted.cuffdiff.out
+  173  LC_NUMERIC=C sort -g -k10 -r cuffdiff.txt | head -100 > top100.sorted.cuffdiff.out
+  174  LC_NUMERIC=C sort -g -k10 -r cuffdiff.txt | head -100 | cut -f1,10
+  175  history
